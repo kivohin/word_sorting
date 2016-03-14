@@ -7,6 +7,7 @@ def word_sorting(stnc)
 
 	puts split_sentence.sort_by { |word| word.downcase }
 
+	#Second solution for sorting, found on StackOverFlow
 	#puts split_sentence.sort { |w1, w2| w1.casecmp(w2) }
 end
 
